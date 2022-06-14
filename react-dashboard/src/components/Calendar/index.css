@@ -1,0 +1,30 @@
+.calender header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+.calender header button,
+.calender header select {
+    margin: 0 4 px;
+}
+
+.calender table {
+    table-layout: fixed;
+    border-collapse:separate;
+    border-spacing:0;
+    margin:auto;
+}
+
+.calender th{
+    vertical-align: middle;
+    text-align: center;
+    height:36px;
+}
+
+.calender .day {
+    padding: 4px 8px;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
