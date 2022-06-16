@@ -1,0 +1,29 @@
+.Quote{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+.quoteBox{
+position: absolute;
+width: 500px;
+top:50%;
+transform: translate(-50%, -50%);
+padding: 2em;
+border-radius: 10px 10px 10px 10px;
+
+}
+
+.quoteButton{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    background-color: brown;
+    border-radius: 28px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    cursor: pointer;
+}
