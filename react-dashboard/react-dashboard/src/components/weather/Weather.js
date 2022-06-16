@@ -3,8 +3,8 @@ import "./style.css";
 
 const Weather = () => {
   const [data, setData] = useState({});
-  const APIkey = "ee8bb87af9c00d44d9ebce7a6405ec3c";
-  const URL = `https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid={API key}`;
+  // const APIkey = "b8df82b72f76345373c2128501588fc2";
+  const URL = 'https://api.openweathermap.org/data/2.5/weather?q=stockholm&appid=b8df82b72f76345373c2128501588fc2&&units=metric';
   
    
    useEffect(() => {
@@ -16,13 +16,13 @@ const Weather = () => {
     return (
       <div className="app">
         <div className="search">
-          <input 
+          {/* <input 
           value={location}
-          onChange={event => setLocation(event.target.value)}
-          onKeyPress={searchLocation}
+          onChange={event => setData(event.target.value)}
+          onKeyPress={search}
   
           placeholder="Location"
-          type="text"/>
+          type="text"/> */}
         </div>
         <div className="container">
         <div className="top">
