@@ -1,53 +1,44 @@
 @media screen and (max-width: 768px) {
 
 .App {
+  background-color: #d5b1e1;
+  text-align: center;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
+  font-size: calc(12px + 2vmin);
 }
-
-.header{
-  background-color: rgb(190, 92, 203);
-  padding: 0;
-  margin: 0;
-  font-size: 4rem;
+.iths{
+  width: 300px;
 }
 .allComp {
  
-  flex-direction: column;
+  /* flex-direction: column;
   text-align: center;
   display: grid;
   grid-template-columns: 1.5fr 1.5fr 1.5fr;
-  gap: 0.5rem;
-  max-width: 1450px;
+  gap: 0.5rem; */
+  max-width: 90vw;
   margin: auto;
 }
+
 }
-
 @media screen and (min-width: 768px) {
-
   .App {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    background-color: #d5b1e1;
+     font-size: calc(12px + 2vmin); 
+    
+  }
+
+  .iths{
+    width: 400px;
   }
   
-  .header{
-    background-color: rgb(190, 92, 203);
-    padding: 0;
-    margin: 0;
-    font-size: 0.3rem;
-  }
   .allComp {
- 
-    flex-direction: column;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1.5fr;
-    gap: 0.5rem;
-    max-width: 1450px;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
-  }
+}
