@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       
         <div className="header">
-          <h1>Welcome!</h1>
+          <h1>IT-högskolan</h1>
         
       </div>
       <div className="allComp">

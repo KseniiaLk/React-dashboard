@@ -1,4 +1,5 @@
 import React ,{useState,useEffect} from "react";
+import "./style.css";
 function Timer(){
     const [clockState, setClockState] = useState ();
 
@@ -11,7 +12,7 @@ function Timer(){
     }, []);
 
 
-   return <div style={{fontSize:"45px", margin:"55px"}}>{clockState}</div>
+   return <div style={{fontSize:"35px"}}>{clockState}</div>
 }
 
 export default Timer;

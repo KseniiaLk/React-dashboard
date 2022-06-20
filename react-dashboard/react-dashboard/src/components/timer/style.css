@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.Timer {
+    color:plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    .Timer {
+      font-size: 7vw;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .Timer  {
+      font-size: 4rem;
+    }
+  }
